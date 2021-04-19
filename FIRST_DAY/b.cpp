@@ -1,7 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <deque>
-
+//http://shujkova.ru/sites/default/files/lec1.pdf
+//https://codeforces.com/blog/entry/71687?locale=ru
 using namespace std;
 
 int n, k;
