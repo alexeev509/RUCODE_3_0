@@ -3,6 +3,7 @@
 #include <deque>
 //http://shujkova.ru/sites/default/files/lec1.pdf
 //https://codeforces.com/blog/entry/71687?locale=ru
+//http://e-maxx.ru/algo/stacks_for_minima
 using namespace std;
 
 int n, k;
