@@ -5,7 +5,10 @@ using namespace std;
 
 int n;
 int mod = 1000000000+7;
-
+//max int 2 147 483 647; 
+//13! = 6 227 020 800 > max int
+//13! = 479001600%mod * 13%mod = 479001600*13 - и int-овое переполнение; 
+//Поэтому тут long long
 long long mod_mult(long long  a, long long  b){
     return (a%mod * b%mod) % mod;
 }
