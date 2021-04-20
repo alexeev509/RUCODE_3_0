@@ -10,7 +10,7 @@ long long mod_mult(long long  a, long long  b){
     return (a%mod * b%mod) % mod;
 }
 
-long long  mod_sum(long long  a, long long  b){
+int  mod_sum(int  a, int  b){
     return (a%mod + b%mod) % mod;
 }
 
@@ -25,7 +25,7 @@ int main(){
         fact[i]=mod_mult(fact[i-1],i);
     }
 
-    long long  obj_index = 0;
+    int  obj_index = 0;
     for(int i =0; i<n; ++i){
         used[a[i]]=true;
         for(int j = 1; j<a[i];++j){
